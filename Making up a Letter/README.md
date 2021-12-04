@@ -6,8 +6,9 @@ Many `<meta>` elements include name and content attributes:
   - *content* : to specify the content
 
 
-<summary><blob>Types could be like</blob></summary>
-<dl>
+<details>
+	<summary><blob>Types could be like</blob></summary>
+	<dl>
 		<dt>Adding description to the home page</dt>
 		<dd>
 			This description is  used on search engine result pages.
@@ -35,17 +36,33 @@ Many `<meta>` elements include name and content attributes:
 ```
 [in proj](https://github.com/Rowida46/TIL/blob/rowida/Making%20up%20a%20Letter/email_letter.html#L5)
 		</dd>
-<dl>
+	<dl>
+---
 
+<dl>
+	<dt>Using of *datetime*</dt>
+	<dd> using a `<time>` element. Each one should have a datetime attribute 
+
+```html
+<time datetime="2016-01-20">20 January 2016</time>
+```
+</dd>
+</dl>
 
 ---
 
-
+<dl>
+ <dt>Using of `<sub>` and `</sub>`</dt>
+ <dd>The four numbers in the chemical formulae should be wrapped in a <sub> element, e.g. H<sub>2</sub>O. The 
+ 	rightmost number in both exponential expressions should be wrapped in a <sup> element, e.g. 10<sup>3</sup></dd>
+</dl>
 
 
 ## Reference
 
-[The_head_metadata_in_HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
+- [Marking up a letter](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter
+     )
+- [The_head_metadata_in_HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
 
 
 
