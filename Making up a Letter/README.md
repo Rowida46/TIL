@@ -42,7 +42,7 @@ Many `<meta>` elements include name and content attributes:
 <br>
 
 <dl>
-	<dt>Using of *datetime*</dt>
+	<dt>Using of <em>datetime</em> </dt>
 	<dd> using a *time* element. Each one should have a datetime attribute 
 
 ```html
@@ -54,10 +54,23 @@ Many `<meta>` elements include name and content attributes:
 ---
 
 <dl>
- <dt>Using of `sub` and `sup`</dt>
+ <dt>Using of <em>sub</em> and <em>sup</em></dt>
  <dd>The four numbers in the chemical formulae should be wrapped in a <sub> element, e.g. H<sub>2</sub>O. The 
  	rightmost number in both exponential expressions should be wrapped in a <sup> element, e.g. 10<sup>3</sup></dd>
 </dl>
+
+---
+
+<dl>
+	<dt>Using of <em>abbr</em></dt>
+	<dd>
+		An abbreviation is marked up with using of *abbr* element with attribute *title* as follows:
+```html
+<abbr title="Cascading Style Sheets">CSS</abbr>
+```		
+</dd>
+</dl>
+
 
 
 ## Reference
