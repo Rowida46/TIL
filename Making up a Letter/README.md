@@ -39,12 +39,11 @@ Many `<meta>` elements include name and content attributes:
 	</dl>
 
 </details>
-
-
+<br>
 
 <dl>
 	<dt>Using of *datetime*</dt>
-	<dd> using a `<time>` element. Each one should have a datetime attribute 
+	<dd> using a *time* element. Each one should have a datetime attribute 
 
 ```html
 <time datetime="2016-01-20">20 January 2016</time>
@@ -55,7 +54,7 @@ Many `<meta>` elements include name and content attributes:
 ---
 
 <dl>
- <dt>Using of `<sub>` and `</sub>`</dt>
+ <dt>Using of `sub` and `sup`</dt>
  <dd>The four numbers in the chemical formulae should be wrapped in a <sub> element, e.g. H<sub>2</sub>O. The 
  	rightmost number in both exponential expressions should be wrapped in a <sup> element, e.g. 10<sup>3</sup></dd>
 </dl>
