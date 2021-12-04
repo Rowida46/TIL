@@ -36,8 +36,11 @@ Many `<meta>` elements include name and content attributes:
 ```
 [in proj](https://github.com/Rowida46/TIL/blob/rowida/Making%20up%20a%20Letter/email_letter.html#L5)
 		</dd>
-	<dl>
----
+	</dl>
+
+</details>
+
+
 
 <dl>
 	<dt>Using of *datetime*</dt>
