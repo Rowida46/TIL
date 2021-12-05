@@ -9,6 +9,7 @@ It's a boolen attribute used as `<script src="" defer >` to indicate to a <em>Br
 
 ## Why we come into defer Concept?
 
+[In more details..](https://www.educba.com/javascript-defer/)
 
 ## Referance 
 
