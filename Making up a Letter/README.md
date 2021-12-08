@@ -88,3 +88,5 @@ Many `<meta>` elements include name and content attributes:
 - [Css review Basic](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
 - [atomic-email-bomb](#)
 - [dribble home page](#)
+- [rot13 cipher in javascript](https://hellodevworld.com/365-days-of-coding/rot13-cipher-javascript-solution)
+- [Border Style](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style)
