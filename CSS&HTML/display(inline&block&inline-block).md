@@ -5,7 +5,7 @@
 	<dt>block width is full width is we don't specify the width val.</dt>
 <dd>
 
-```css width: 25x;
+```css width: 20x;
 div{
 	display: block;
 	width : 20px; /*full width is not spesified*/
