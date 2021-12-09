@@ -26,11 +26,14 @@ outline: green solid 3px;
 
 <dl>
 	<dt>And we can sum up the whole properties into </dt>
-	<dd>`outline-color` : [ref](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-color)</dd>
-	<dd>`outline-style`: [ref](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style)</dd>
-	<dd>`outline-width` : [ref](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-width)</dd>
+	<dd>used as `outline-color` </dd>
+	<dd>used as `outline-style`</dd>
+	<dd>used as `outline-width` </dd>
 
 </dl>
 # Referance 
 
 - [Mozilla tutorials](https://developer.mozilla.org/en-US/docs/Web/CSS/outline)
+- [ref](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-color)
+- [ref](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style)
+- [ref](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-width)
