@@ -16,4 +16,11 @@ div{
 <dt>add line break : before and after</dd>
 <dt>Respect the padding , margin and width& hight</dd>
 
+
+
+**Inline Display**
+<dt>don't add line break : before and after</dd>
+<dt>Don't Respect the margin and width& hight</dd>
+<dt>Respect Padding and margin in just left and right only</dt>
+
 </dl>
