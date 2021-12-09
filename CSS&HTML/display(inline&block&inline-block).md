@@ -6,11 +6,10 @@
 <dd>
 
 ```css
-	div{
-			  display: block;
-			  width : 20px; /*full width is not spesified*/
-
-		}
+div{
+	display: block;
+	width : 20px; /*full width is not spesified*/
+}
 ```
 </dd>
 
