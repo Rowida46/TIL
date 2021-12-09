@@ -90,3 +90,6 @@ Many `<meta>` elements include name and content attributes:
 - [dribble home page](#)
 - [rot13 cipher in javascript](https://hellodevworld.com/365-days-of-coding/rot13-cipher-javascript-solution)
 - [Border Style](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style)
+- [udacity CSS tutorials](https://www.udacity.com/blog/2021/07/css-display-block-inline-and-inline-block-explained.html)
+
+- [Mozilla css summing up](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks)
