@@ -12,3 +12,10 @@ Based on where we are adding our script in the HTML page also influences the loa
 
 
 so we need to improve the loading performance by adding `defer` as an attribute within the `<script>` tag
+
+
+
+
+## reference
+
+[javascript defer](https://www.educba.com/javascript-defer/)
