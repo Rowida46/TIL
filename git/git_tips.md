@@ -49,6 +49,12 @@ A simple way to commpare differance between *commits* or *version* of the *same 
 
 
 
+<h2>
+  <a name="3-stashing-uncommitted-changes" href="#3-stashing-uncommitted-changes">
+  </a>
+  3. Stashing uncommitted changes 🔖
+</h2>
+
 
 
 ## Reference 
