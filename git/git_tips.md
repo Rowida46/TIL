@@ -45,3 +45,12 @@ A simple way to commpare differance between *commits* or *version* of the *same 
 	</div>
 	</div>
 </dd>
+
+
+
+
+
+
+## Reference 
+
+[10 usefull *git* tips](https://dev.to/yenyih/10-useful-git-tips-to-improve-your-workflow-kf1)
