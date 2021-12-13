@@ -18,7 +18,7 @@ Create your own aliases for common commands to save you some time in the termina
 
 instead of wrting the whole command, run the following breviations:
 
-```plaintext
+```plaintext width: fit-content;
 [alias]
     co = checkout
     ci = commit
@@ -36,7 +36,7 @@ A simple way to commpare differance between *commits* or *version* of the *same 
 
 <dt>If you want to compare the same file between different commits, you run the following:</dt>
 <dd>
-	<pre>
+	<pre width ="fit-content">
 		If you want to compare the same file between different commits, you run the following:
 	</pre>
 </dd>
