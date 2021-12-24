@@ -93,3 +93,5 @@ Many `<meta>` elements include name and content attributes:
 - [udacity CSS tutorials](https://www.udacity.com/blog/2021/07/css-display-block-inline-and-inline-block-explained.html)
 
 - [Mozilla css summing up](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks)
+- [requirejs Config Path](https://www.jscodetips.com/examples/requirejs-paths-config)
+- [Cross-Origin Resource Sharing (CORS)](https://web.dev/cross-origin-resource-sharing/)
