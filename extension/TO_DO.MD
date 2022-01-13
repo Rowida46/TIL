@@ -7,4 +7,4 @@
 - [Spotify in js](https://github.com/acen20/spotify/blob/master/src/Login.js)
 - [API(Flask and Cloud)](https://github.com/miguelgrinberg/microblog-api)
 - [JS](https://github.com/acen20/flexy-dashboards)
-- [Spotify Api in JS](https://github.com/acen20/Scraping/blob/main/Scrapping%20job%20postings.py)
+- [Spotify Api in JS](https://github.com/acen20/stream-shuttle/blob/master/js/api.js)
