@@ -4,7 +4,7 @@ f = open("./README.md", "w")
 pokemon_id = random.randint(1, 151)
 print(pokemon_id)
 res = requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon_id}')
-print(res)
+
 result = json.loads(res.text)
 f.write(f'''<p align="center">
     <img src="{result['sprites']['front_default']}" width="150" height="150">
