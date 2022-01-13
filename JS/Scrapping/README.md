@@ -4,10 +4,10 @@
 > XMLHttpRequest has two modes of operation: synchronous and asynchronous.
 
 steps :
-1- Create XMLHttpRequest Object. `const xhr = new XMLHttpRequest()`
-2- open &pass argument to that object :
+1. Create XMLHttpRequest Object. `const xhr = new XMLHttpRequest()`
+2. open &pass argument to that object, this is the paart of configration :
 ```js
-xhr.open(method, URL, [async, user, password])
+xhr.open(method, URL, [async,token_url, user, password])
 ```
 This method specifies the main parameters of the request:
 	- _method_ – HTTP-method. Usually "GET" or "POST".
@@ -21,4 +21,10 @@ This method specifies the main parameters of the request:
 	- Parameters : __body__ which is the request body, `POST` request have body, while `GET` don't as it's
 	only meant to retrieve data.
 
-4.
+4. Listen to xhr events for response.
+	- _progress_ : triggers periodically while the response is being downloaded, reports how much has been downloaded.
+
+
+
+## Resources 
+- [JS.io tutuorial](https://javascript.info/xmlhttprequest)
