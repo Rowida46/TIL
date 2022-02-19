@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"rootDir" : "./src",
+		"outDir" : "./dst",
+		"target": "es6",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+	}
+}
+
+
