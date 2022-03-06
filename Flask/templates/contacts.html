@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+	<div class="jumbotron text-center">
+		<h2> Oh shit here we go again </h2>
+		<ul class="list-gorub">
+			{% for cont in Contacts %}
+				<li class="list-gorub item"><a href="contact/{{cont['id']}}">{{cont['name']}}</a></li>			
+			{% endfor %}
+		</ul> 
+	</div>	
+{% endblock %}
