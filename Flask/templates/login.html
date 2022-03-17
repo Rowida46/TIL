@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+	<div class="jumbotron text-center">
+		<h2> Log In </h2>
+		<form method="POST" action="">
+			<div class="form-group">
+				<label>User Name</label>
+				<input type="text" name="username" placeholder="Write your usename"
+				value="{{ request.form.usename}}">
+			</div>
+			<div class="form-group">
+				<label>Password</label>
+				<input type="Password" name="password" placeholder="Write your Password"
+				value="{{ request.form.password }}">
+			</div>
+			
+			<p><input type="submit" class="BTN BTN-PRIMARY"  value="Submit"></p>
+		</form>
+	</div>	
+{% endblock %}
