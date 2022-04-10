@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+	<div class="jumbotron text-center">
+		<h2> Oh shit here we go again </h2>
+		<ul class="list-gorub">
+			<table class="table table-striped">
+				<tr>
+					<th>Title</th>
+					<th>Auther</th>
+					<th>Body</th>
+					<th>Date</th>
+					
+				</tr>
+				<td>{{ article.id }}</td>
+					<td>{{ article.title }}</td>
+					<td>{{ article.body }}</td>
+					<td>{{ article.auther }}</td>
+					<td>{{ article.time_stamp }}</td>
+				</tr>
+			</table>
+
+	</div>
+		
+{% endblock %}

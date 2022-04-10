@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+	<div class="jumbotron text-center">
+		<h2> Edit This Article </h2>
+		{% from "includes/__formhelpers.html" import render_field %}
+
+		<form method="POST" action="">
+			<div class="form-group">
+		        {{ render_field(form.title, class="form-control") }}
+		    </div>
+			<div class="form-group">
+		        {{ render_field(form.body, class="form-control", id="editor") | safe }}
+		    </div>
+		    <div class="form-group">
+		        {{ render_field(form.auther, class="form-control") }}
+		    </div>
+			
+			<p><input type="submit" class="BTN BTN-PRIMARY"  value="Edit Article"></p>
+		</form>
+	</div>	
+{% endblock %}

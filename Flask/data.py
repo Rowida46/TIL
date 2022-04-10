@@ -17,4 +17,3 @@ def Contacts():
 """cont = Contacts()
 for con in cont:
 	print(con['name'])"""
-
