@@ -1,0 +1,6 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+	<p>Ur local data and time is {{ moment(current_data).format('LLL') }} </p>
+	<p>And that was from {{ moment(current_data).fromnow(refresh = true) }}</p>
+{% endblock %}

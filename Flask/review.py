@@ -38,7 +38,18 @@ def Contact(id =2):
 @app.route("/index")
 def wlcm():
 	return render_template('home.html')
+"""
+from moment import Moment
+moment = Moment(app)
+from datatime import datetime
+@app.route("/timing")
+def timetspt():
+	return render_template('timestamp.html' , current_data = datatime.utcnow())
+"""
 
+@app.route('/hola')
+def hola():
+	return render_template('hola.html')
 
 class User(db.Model):
     id = db.Column(db.Integer , primary_key = True)

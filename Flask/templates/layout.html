@@ -25,10 +25,12 @@
 
 </head>
 <body>
+
 	
 		{% include 'includes/__navbar.html' %}
 		<div class="container">
 			{% include 'includes/__messeges.html' %}
+      {moment.include_moment()}
 			{% block body %} {% endblock %}
 		</div>
 		<!-- Bootstrap core JavaScript
