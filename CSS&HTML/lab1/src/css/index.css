@@ -1,0 +1,26 @@
+.ref{
+	text-align: center;
+	display: flex;
+	padding: 10px;
+	word-spacing: 5px;
+}
+
+.contacts{
+	background: gray;
+	height: 60px;
+	padding-top:  15px;
+
+}
+.rights{
+	text-align: center;
+	word-spacing: 5px;
+}
+
+.personal{
+	padding-right: 15px;
+}
+
+.background{
+	background-image: url("src/img/img.jpg");
+	background-repeat: no-repeat;
+}
