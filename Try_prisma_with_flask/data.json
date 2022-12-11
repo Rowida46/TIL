@@ -1,0 +1,113 @@
+{	
+	"username": "rowida nagah", 
+	"first_name":"rowida",
+ 	"last_name": "nagah",
+ 	"national_id": "30006042402845",
+ 	"user_type": "admin", 
+ 	"gender": "male",
+ 	"phone":"+201141018480", 
+	"email": "rod@gm.com",
+	 "address": "string"
+	, "password": "pass"
+}
+
+{
+    "id": 1,
+    "username": "ARES",
+    "first_name": "OMAR",
+    "last_name": "ABDELALIM",
+    "national_id": "12345678910234",
+    "gender": "male",
+    "user_type": "family_admin",
+    "phone": "+201033549605",
+    "email": "omar9517@gmail.com",
+    "address": "13st"
+}
+
+-----------------------------------
+{
+    "username": "dana",
+    "first_name": "dana",
+    "last_name": "nagah",
+    "national_id": "30045678910234",
+    "gender": "female",
+    "user_type": "family_admin",
+    "phone": "+201403549605",
+    "email": "dana@gmail.com",
+    "address": "13st",
+    "password":"dana4"
+}
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsIm5hdGlvbmFsX2lkIjoiMzAwNDU2Nzg5MTAyMzQiLCJ1c2VyX3R5cGUiOiJmYW1pbHlfYWRtaW4iLCJpYXQiOjE2NTYzODI5MjF9.fObomJ8vX9gnTTbTQ86CecliQvZGPQvbofImdS871g4"
+}
+
+
+
+{
+    "username":"happy",
+    "first_name":"abdo",
+    "last_name":"happy",
+    "national_id":"12346678910334",
+    "user_type":"normal",
+    "gender":"male",
+    "phone":"+201133569605",
+    "email":"happy9517@gmail.com",
+    "address":"16st",
+    "password":"happy"
+}
+
+------------------------------
+{
+    "username":"happy",
+    "first_name":"abdo",
+    "last_name":"happy",
+    "national_id":"12346678910334",
+    "user_type":"normal",
+    "gender":"male",
+    "phone":"+201133569605",
+    "email":"happy9517@gmail.com",
+    "address":"16st",
+    "password":"happy"
+}
+{
+    "username":"happy",
+    "first_name":"abdo",
+    "last_name":"happy",
+    "national_id":"12346678910334",
+    "user_type":"normal",
+    "gender":"male",
+    "phone":"+201133569605",
+    "email":"happy9517@gmail.com",
+    "address":"16st",
+    "password":"happy"
+}
+
+
+
+
+
+---------------- 
+
+{
+    "username": "mohamed",
+    "first_name": "mohamed",
+    "last_name": "nagah",
+    "national_id": "41045678910234",
+    "gender": "female",
+    "user_type": "family_admin",
+    "phone": "+201403549605",
+    "email": "mohamed@gmail.com",
+    "address": "13st",
+    "password":"dana4"
+}
+
+
+
+
+
+
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTksIm5hdGlvbmFsX2lkIjoiNDEwNDU2Nzg5MTAyMzQiLCJ1c2VyX3R5cGUiOiJmYW1pbHlfYWRtaW4iLCJpYXQiOjE2NTY0MzIyNTB9.WmBi8mgJ4WH3BO3Pk7m3axsCyg5O5-NmSzUtbbJORWA"
+}

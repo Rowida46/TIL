@@ -222,3 +222,26 @@ var numb= parseInt(prompt("pleaase enter F number"))
 var numb2=parseInt(prompt("pleaase enter S number"))
 
 alert(numb+numb2)
+
+let age = 90;
+let msg;
+if age >= 100 ? msg = "num" : msg ="numm";
+
+
+let msg = age == 100 ? "100" : age < 100 ? "less" : "more";
+
+
+function sum(a,b){
+	return a + b;
+}
+
+function avrg(a,b,func){
+	return sum(a,b) / 2;
+}
+
+let ans = avrg(3,4,sum);
+console.log(ans);
+
+
+let show = () => a+b;
+console.log(show(3,2));

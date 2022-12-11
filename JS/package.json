@@ -1,0 +1,11 @@
+{
+  "name": "hands_on_server",
+  "version": "1.0.0",
+  "description": "- [Book](https://javascript.info/xmlhttprequest?map)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rowida",
+  "license": "ISC"
+}

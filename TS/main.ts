@@ -98,10 +98,6 @@ console.log(cr.position)
 
 
 
-
-
-
-
 function addMetadata(target: any) {
  
  // Add some metadata
@@ -112,8 +108,6 @@ function addMetadata(target: any) {
  // Return target
  return target;
 }
-
-
 
 @addMetadata
 class Person {

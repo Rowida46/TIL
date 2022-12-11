@@ -19,6 +19,7 @@ def create_app(config_file='settings.py'):
 app = create_app()
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///data.db"
 db = SQLAlchemy(app)
+#app.config['SERVER_NAME'] = 'rowida:5000'
 
 
 def get_timestamp():

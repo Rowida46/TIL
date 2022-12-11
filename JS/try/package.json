@@ -1,0 +1,27 @@
+{
+  "name": "hands_on",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+{
+  "name": "fcc-learn-npm-package-json",
+  "author": "Dana",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.11.2"
+  }
+}

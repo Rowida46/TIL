@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<header>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Flask App</title>
@@ -23,14 +23,14 @@
       <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
     <![endif]-->
 
-</head>
+</header>
 <body>
 
 	
 		{% include 'includes/__navbar.html' %}
 		<div class="container">
 			{% include 'includes/__messeges.html' %}
-      {moment.include_moment()}
+      <!--{moment.include_moment()}-->
 			{% block body %} {% endblock %}
 		</div>
 		<!-- Bootstrap core JavaScript

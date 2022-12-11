@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fetching Working With Data & APIs in JavaScript</title>
+</head>
+<body>
+	<img src="" id="fetch_img">
+	<script>
+		/*
+		FETCH FUNCTION RETURN A PROMISE, so using then soon after the fetch excution will handle that proimse
+		to do si=omething with that response returned from frtching
+		*/
+		fetch('https://picsum.photos/200/300').then(response =>{
+			console.log(response);
+			return response.blob();
+		}).then(blob =>
+		{
+			console.log(blob)
+			document.getElementById('fetch_img').src = URL.createObjectURL(blob);
+		});
+		getdata();
+		async function getdata(){
+			const response = await fetch('test.csv');
+			const data = await response.text();
+			console.log(data);
+
+		}
+		
+	</script>
+
+</body>
+</html>

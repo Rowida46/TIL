@@ -58,3 +58,26 @@ console.log(typeof dana); // object
 
 console.log(obj.innerHTML); // object
 console.log(typeof obj); // object
+
+
+let myVar = "100.56789";
+console.log(parseFloat(myVar));
+let num = 10;
+console.log(Math.floor(Math.random() * 3))
+console.log(Math.floor(Math.random() * (4 - 0 + 1) + 0));
+let name = "dana"
+console.log(name[0].repeat(3));
+console.log(name.includes('d'));
+
+let word = "Elzero";
+let letterZ = "z";
+let letterE = "e";
+let letterO = "O";
+
+console.log(word.includes(letterZ))
+let myFriends = ["Ahmed", "Elham", "Osama", "Gamal"];
+console.log(myFriends.slice(0,3));
+// Write Code Here
+myFriends.pop();
+myFriends.shift();
+console.log(myFriends); // Output => ["Elham", "Osama"]

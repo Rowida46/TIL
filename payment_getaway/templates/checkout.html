@@ -1,0 +1,19 @@
+
+<html>
+<head>
+    <title>Flask + Stripe Subscription</title>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+              data-key="{{ key }}"
+              data-description="A Flask Charge"
+              data-amount="1000"
+              data-locale="auto"></script>
+    
+</head>
+<body>
+    <div class="container mt-5">
+        <button type="submit" class="btn btn-primary" id="submitBtn">Subscribe</button>
+    </div>
+</body>
+</html>

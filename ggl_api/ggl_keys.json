@@ -1,0 +1,16 @@
+{"installed":{
+	"client_id":"503233603789-s5ahv5f4r0oia80ag7c0h7gsdv5nmn5j.apps.googleusercontent.com",
+	"project_id":"graceful-cider-350721",
+	"auth_uri":"https://accounts.google.com/o/oauth2/auth",
+	"token_uri":"https://oauth2.googleapis.com/token",
+	"auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+	"client_secret":"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"
+}}
+
+// ref
+
+// https://blog.logrocket.com/how-to-authenticate-access-google-apis-using-oauth-2-0/
+// npm run dev -- --clientId "503233603789-s5ahv5f4r0oia80ag7c0h7gsdv5nmn5j.apps.googleusercontent.com" --clientSecret "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"
+// https://github.com/johnnyreilly/google-apis-authentication-with-typescript
+
+npm run dev -- --clientId "503233603789-s5ahv5f4r0oia80ag7c0h7gsdv5nmn5j.apps.googleusercontent.com" --clientSecret "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"
