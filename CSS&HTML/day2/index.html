@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<ul style="list-style-type: none;">
+		<li>item</li>
+		<li>item</li>
+		<li>item</li>
+		<li>item</li>
+	</ul>
+
+	<!-- list style type -> defualt is disc -->
+	<ol type="A">
+		<li>item</li>
+		<li>item</li>
+		<li>item</li>
+		<li>item</li>
+	</ol>
+	<hr>
+	<!-- dl &dt for further descriptions within list
+	dl -> to begin
+	dt -> description title
+	dl - description list
+	-->
+	<dl>
+		<dt>Mobiles</dt>
+		<dd>nokia</dd>
+		<dd>apple</dd>
+		<dd>pocco</dd>
+		<dd>appo</dd>
+		<dt>Cars</dt>
+		<dd>fiat</dd>
+		<dd>mini cober</dd>
+		<dd>bmw</dd>
+	</dl>
+	<form method="post" action="iframe_test.html">
+
+		<label>Eamil</label> <input type="text" name="email">
+		<br>
+		<br>
+		<label>Password</label>
+		<input type="password" name="password">
+		<br>
+		<br>
+		<!--groub some of data-->
+		<fieldset>
+			<!--legend as a title-->
+			<legend>Experiance </legend>
+			<label>Company Name</label><br>
+			<input type="text" name="cp_name">
+			<br><br>
+			<label>Job Title</label><br>
+			<input type="text" name="job_name">
+		</fieldset>
+		<br>
+
+		<!--Long text area-->
+		<textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+		<br>
+	
+		<label>You can choose from our predefined options or write your own option</label>
+		<input align="left" type="" list="enums" name="">
+		<datalist id= "enums">
+			<option> Daily</option>
+			<option> Hourly</option>
+			<option> Weekly</option>
+
+		</datalist>
+		<br>
+
+		<select id="select" name="test_selects">
+			<option>Female</option>
+			<option>Male</option>
+		</select>
+		<br>
+		<br>
+		<input type="submit" name="">
+		<button type="reset" name="">Reset</button>
+
+	</frame>
+
+</body>
+</html>
