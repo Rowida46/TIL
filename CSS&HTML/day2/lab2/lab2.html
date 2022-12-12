@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab 2</title>
+    <link rel="stylesheet" type="text/css" href="src/css/index.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="src/img/img.jpg" alt="logo Image" style="border-radius: 50%" width="90px">
+      </nav>
+    </header>
+    <table>
+      <!--nav-->
+      <th colspan="3">
+        <nav>
+          <ul>
+            <li>
+              <a href="#">About us</a>
+            </li>
+            <li>
+              <a href="#">Contact us</a>
+            </li>
+            <li>
+              <a href="#">Home</a>
+            </li>
+          </ul>
+        </nav>
+      </th>
+      <tr>
+        <td class="col_1">
+          <div class="login">
+          <form method="post" action="">
+            <!--groub some of data-->
+            <fieldset>
+              <!--legend as a title-->
+              <legend>User Name</legend>
+              <label>First Name</label>
+              <input type="text" required>
+              <br><br>
+              <label>Last Name</label>
+              <input type="text" required>
+            </fieldset>
+            <br>
+            <label> Email </label><input type="Email" required>
+            <br><br>
+            <label> Password </label><input type="password" required>
+            <br><br>
+            <label>Image </label><input type="file" name="img">
+            <br><br>
+            <button type="submit">Login</button>
+            <button type="reset" name="" ><a href="Signup.html">SignUp</button>
+          </form></div>
+        </td>
+
+        <!--Middle Col-->
+        <td rowspan="3" class="col_2">
+          <h1 align="center"> Rowida Nagah</h1>
+          <h1 align="center"> رويدا نجاح محمد </h1>
+          <h3 id="about">My Personal Info:</h3>
+          <ul>
+            <li>Age : 22 years old </li>
+            <li>Address : Minya </li>
+            <li>Phone : 01128081598 </li>
+            <li><a href="#" target="blank">Faculty Name </a></li>
+            <li>Graduation year : 2022 </li>
+            <li> Hobbies
+              <ol>
+                <li>Reading</li>
+                <li>Playing guitar</li>
+              </ol>
+            </li>
+            <li><a href="mailto:rowidanagah462000@gmail.com">Reach me out vai Email </a>
+            </li>
+          </ul>
+        </td>
+
+        <!--Personal Image-->
+        <td class="col_3">
+          <img class="personal" src="src/img/rowida.jpg" align="right" alt="personal Image" style="border-radius: 50%" width="110">
+        </td>
+      </tr>
+
+      <tr>
+      	<!--Social Medea-->
+        <td class="rh">
+          <div align="center" class="contacts">
+            <a href="https://www.quora.com/profile/Rowida-Nagah" target="blank">
+              <img align="center" src="https:/www.svgrepo.com/show/25177/quora.svg" draggable="false" alt="Dana46" height="30" width="40" />
+            </a>
+            <a href="https://www.linkedin.com/in/rowida-nagah-30182a135" target="blank">
+              <img align="center" src="src/img/linkedin.png" alt="Rowida Nagah" height="30" width="40" />
+            </a>
+            <a href="https://twitter.com/Rowida_Nagah" target="blank">
+              <img align="center" src="src/img/twitter.png" alt="Dana46" height="30" width="40" />
+            </a>
+            <a href="https://www.facebook.com/rowida.nagah.545/" target="blank">
+              <img align="center" src="src/img/facebook.png" alt="Rowida Nagah" height="30" width="40" />
+            </a>
+          </div>
+        </td>
+        <!-- news section -->
+        <td rowspan="2">
+          <h2 align="center">News</h2>
+        </td>
+      </tr>
+      <tr>
+      	<!--Iframe Section-->
+        <td class="rh">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/p-kAqxuJNik"></iframe>
+        </td>
+      </tr>
+
+    </table>
+    <footer>
+      <a style="float: right;" href="#"><img src="src/img/up.png" height="30" width="40"></a>
+      <div style="clear:both;"></div>
+      <div class="rights">
+        Copyrights © are reserved to ITI
+      </div>
+    </footer>
+  </body>
+</html>

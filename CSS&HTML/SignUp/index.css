@@ -1,0 +1,60 @@
+
+body{
+    background: aqua;
+}
+.box{
+    border-radius: 3px;
+    position: relative;
+    width: 350px;
+    height: 850px;
+    background: #abcd00;
+    margin: auto;
+}
+span{
+    color: red; 
+    font-weight:bold;
+
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+form label{
+    display: flex;
+    margin-top: 50px;
+    font-size: 18px;
+    margin-left: 5%;
+}
+form input{
+    width: 75%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    margin-left: 5%;
+}
+input[type="button"]{
+    width: 320;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: wheat;
+    font-size: 18px;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.para-2{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+.para-2 a{
+    color:#5f49c1 ;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="src/css/index.css">
+  </head>
+  <body>
+    <form action="thankyou.html" method="post" class="sign_up">
+      <h2 align="center">Sign Up</h2>
+      <div class="field">
+        <label>User Id</label>
+        <input type="text" name="id" value="1" class="signin" disabled="">
+      </div>
+      <fieldset class="field" style="width= 80%">
+        <legend>User Name</legend>
+        <label>First Name</label>
+        <input type="text" name="fname" class="signin_lst" placeholder="Your First Name" required="">
+        <label>Last Name</label>
+        <input type="text" name="lname" class="signin_lst" placeholder="Your Last Name" required="">
+      </fieldset>
+      <div class="field">
+        <label>Email</label>
+        <input type="email" name="email" class="signin" required="">
+      </div>
+      <div class="field">
+        <label>Password</label>
+        <input type="Password" name="Password" class="signin" required="">
+      </div>
+      <div class="field">
+        <label>Repeat password </label>
+        <input type="Password" name="Password" class="signin" required="">
+      </div>
+      <div class="field">
+        <label>Repeat password </label>
+        <input type="date" name="Password" class="signin">
+      </div>
+      <div class="field">
+        <label>Personal Image </label>
+        <input type="file" name="img" class="signin">
+      </div>
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" name="Gender" value="Female">
+        <label>Female</label>
+        <input type="radio" name="Gender" value="Male">
+        <label>Male</label>
+      </fieldset>
+      <div class="field">
+        <select class="signin" id="select" name="fc_name">
+          <option>Minya</option>
+          <option>Cairo</option>
+          <option>GUC</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>You can choose from our predefined hoppies or write your own preferance</label>
+        <input align="left" type="text" list="enums" name="" class="signin_lst">
+        <datalist id="enums">
+          <option> Wrting</option>
+          <option> Reading</option>
+          <option> Swimming</option>
+        </datalist>
+      </div>
+      <div class="field">
+        <label>About You</label><br>
+        <textarea class="signin" placeholder="Tell Us Braifly About you"></textarea>
+      </div>
+      <div class="field" id="terms">
+        <input type="checkbox" name="terms">
+        <label><a href="#terms">
+            I agree to the terms</a></label><a href="#terms">
+        </a>
+      </div><a href="#terms">
+        <button type="submit">Submit</button>
+        <button type="reset" name="">Reset</button>
+      </a>
+    </form>
+  </body>
+</html>
