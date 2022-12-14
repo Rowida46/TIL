@@ -8,9 +8,10 @@
   </head>
   <body>
     <form action="thankyou.html" method="post" class="sign_up">
-      <h2 align="center">Sign Up</h2>
-      <div class="field">
+      <div class="col-25">
         <label>User Id</label>
+      </div>
+      <div class=".col-75">
         <input type="text" name="id" value="1" class="signin" disabled="">
       </div>
       <fieldset class="field" style="width= 80%">
@@ -20,27 +21,37 @@
         <label>Last Name</label>
         <input type="text" name="lname" class="signin_lst" placeholder="Your Last Name" required="">
       </fieldset>
-      <div class="field">
-        <label>Email</label>
+      <div class="col-25">
+        <label>Email </label>
+      </div>
+      <div class="col-75">
         <input type="email" name="email" class="signin" required="">
       </div>
-      <div class="field">
+      <div class="col-25">
         <label>Password</label>
+      </div>
+      <div class="col-75">
         <input type="Password" name="Password" class="signin" required="">
       </div>
-      <div class="field">
+      <div class="col-25">
         <label>Repeat password </label>
+      </div>
+      <div class="col-75">
         <input type="Password" name="Password" class="signin" required="">
       </div>
-      <div class="field">
+      <div class="col-25">
         <label>Repeat password </label>
+      </div>
+      <div class="col-75">
         <input type="date" name="Password" class="signin">
       </div>
-      <div class="field">
+      <div class="col-25">
         <label>Personal Image </label>
+      </div>
+      <div class="col-75">
         <input type="file" name="img" class="signin">
       </div>
-      <fieldset>
+      <fieldset class="field">
         <legend>Gender</legend>
         <input type="radio" name="Gender" value="Female">
         <label>Female</label>
@@ -56,12 +67,12 @@
       </div>
       <div class="field">
         <label>You can choose from our predefined hoppies or write your own preferance</label>
-        <input align="left" type="text" list="enums" name="" class="signin_lst">
-        <datalist id="enums">
-          <option> Wrting</option>
-          <option> Reading</option>
-          <option> Swimming</option>
-        </datalist>
+      </div><input align="left" type="text" list="enums" name="" class="signin_lst">
+      <datalist id="enums">
+        <option> Wrting</option>
+        <option> Reading</option>
+        <option> Swimming</option>
+      </datalist>
       </div>
       <div class="field">
         <label>About You</label><br>
@@ -72,10 +83,12 @@
         <label><a href="#terms">
             I agree to the terms</a></label><a href="#terms">
         </a>
-      </div><a href="#terms">
+      </div>
+      <a href="#terms">
         <button type="submit">Submit</button>
         <button type="reset" name="">Reset</button>
       </a>
     </form>
+    </div>
   </body>
 </html>

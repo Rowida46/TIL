@@ -5,6 +5,7 @@ header {
 	font-size: bold;
 }
 
+
 nav ul{
 	display: flex;
 	font-family: cursive;
@@ -48,6 +49,15 @@ table{
 	width: 25%;
 }
 
+body{
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 1.7;
+	color: #c4c3ca;
+	background-color: #1f2029;
+	overflow-x: hidden;
+}
+}
 .login{
    border: 3px solid #2e354f;
    padding: 10px;
@@ -63,16 +73,37 @@ th, td {
 }
 
 .sign_up{
-	width: 86%;
+	width: 1010px;
 	padding: 90px 70px 50px 70px;;
-	padding-top: 56px;
-   border: 3px  #2e354f;
+	padding-top: 6px;
+   border: 30px darkred;
+ 	border-radius: 4px;  
+  font-size: 14px; 
+  margin: auto; 
+  line-height: 22px;  
+  letter-spacing: 0.5px;  
+  outline: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 60px; 
 
+
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
 }
 
 h1{
 	color: #2e354f;
-	text-align: center;
 }
 
 .signin{
@@ -82,7 +113,6 @@ h1{
 	padding: 10px;
 	padding-left: 24px;
 	font-weight: 500;
-	width: 80%;
 	transition: .2s;
 }
 
@@ -99,6 +129,7 @@ h1{
 
 .field{
 	padding: 10px;
+	width: 75%;
 
 }
 button{

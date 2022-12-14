@@ -1,0 +1,118 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 25px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lucida Console"
+}
+
+div h1{
+	text-align: center;
+}
+
+/*2- of a div*/
+#header{ 
+	background-color: red;
+	width: 100%;
+	height: 30%;
+	padding: 10px;
+}
+
+/*3- of a span*/
+#linksbar{
+	background-color: gray;
+	width: 25%;
+	height: 70%;
+	float: left;
+}
+
+/*4- content span*/
+#content{
+	width: 75%;
+	height: 70%;
+	background-color: pink;
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.titles{
+	margin: 10px;
+	border:2px solid black;
+}
+
+#content p, #tbl{
+	margin-top: 20px;
+}
+
+.none-bullet-list {
+	list-style: none;
+	padding: 15px;
+}
+
+/* 5b- for the links that're direct child for <li> tag
+** which inside span with id= "linksbar"
+*/
+
+
+ul li a {
+	background-color: pink ;
+	color: red;
+	text-decoration-line: none;
+}
+
+
+ul li a:hover{
+	background-color: red;
+	color: pink;
+	text-decoration-line: none;
+}
+
+
+/*
+** 5d: paragraph that comes directly after (sibling)
+** <h2> tag which is direct 
+** child for <span> with id="content".
+*/
+
+content.h2 + p{
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#loginform{
+	border: 2px dashed rgb(20,70,60);
+}
+
+#loginform input[type="text"]{
+	background-color: yellow;
+}
+
+
+
+input[type="text"]:focus{
+	background-color: white;
+}
+
+.tabled-bordered{
+	padding: 5px;
+	border: 2px solid black;
+}
+
+p#aboutus{
+	color: red !important;
+}
+
+/*
+aboutus" that's direct child from span with 
+id "content".
+ Which style will be applied to the paragraph? And why?
+*/
+
+#content + p#aboutus{
+	color: yellow;
+} 
+
