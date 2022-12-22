@@ -1,32 +1,46 @@
 /*Task 2 */
-function ShowCurrentTime(argument) {
+function ShowCurrentTimetst() {
 	/* using date function */
 	date = new Date()
 	str = date.toDateString();
 	local = date.toLocaleDateString();
-	document.getElementById("textBox").value +="\n"+ str + " " + local
+	document.getElementById("textBox").value += "\n" + str + " " + local
 }
 
-let mins = 0, secs = 0, hours = 0;
-let timer ;
 
-function ShowTime(){
+function getTime() {
+	var currentDate = new Date();
+	var currentTime = currentDate.toLocaleTimeString();
+	console.log(currentTime)
+	document.getElementById("textBox").value = currentTime;
+}
+
+function ShowCurrentTime() {
+	timer = window.setInterval(getTime, 1000);
+}
+
+
+
+let mins = 0, secs = 0, hours = 0;
+let timer;
+
+function ShowTime() {
 	timer = window.setInterval(ShowCurrentTime, 1000);
 }
 
 /*Task 2 */
 
-function calcTime(){
+function calcTime() {
 	mins = parseInt(secs / 60);
-	hours = parseInt(secs /3600);
-	secs +=1
-	document.getElementById("myTextBox").value = "It's been : " + hours + " hours and " + mins +" mintues ans " + secs%60 + " seconds" 
+	hours = parseInt(secs / 3600);
+	secs += 1
+	document.getElementById("myTextBox").value = "It's been : " + hours + " hours and " + mins + " mintues ans " + secs % 60 + " seconds"
 
 }
-function StartTimer(){
+function StartTimer() {
 	timer = window.setInterval(calcTime, 1000);
 }
-function StopTime(){
+function StopTime() {
 	window.clearInterval(timer)
 }
 
@@ -39,29 +53,29 @@ function openads(){
 /*start of  task 3*/
 let myAdsWindow;
 
-function openAd(){
+function openAd() {
 	ads = document.getElementById("ads");
-	console.log("your lonk is "+ ads);
+	console.log("your lonk is " + ads);
 	/*open the new window at the center  */
-	var x = screen.width/2 - 700/2;
-    var y = screen.height/2 - 450/2;
-	myAdsWindow = window.open("", "_blank", 'width=300,height=300,left='+x+',top='+y);
-	
+	var x = screen.width / 2 - 700 / 2;
+	var y = screen.height / 2 - 450 / 2;
+	myAdsWindow = window.open("", "_blank", 'width=300,height=300,left=' + x + ',top=' + y);
+
 	txt = "The lorem ipsum is a placeholder text used in publishing and graphic design.This filler text is a short paragraph that contains all the letters of the alphabet. The characters are spread out evenly so that the reader’s attention is focused on the layout of the text instead of its content";
 	myAdsWindow.document.write("<p>" + txt + "</p>");
 }
 
-function showAd(){
+function showAd() {
 	window.setTimeout(openAd, 3000);
 }
 
-function closeAd(){
+function closeAd() {
 	myAdsWindow.window.close();
 }
 
 /*Close window on clicking 's' */
-document.body.onkeydown = function(e){
-	if (e.key == 's'){
+document.body.onkeydown = function (e) {
+	if (e.key == 's') {
 		window.close()
 	}
 }
@@ -73,11 +87,11 @@ document.body.onkeydown = function(e){
 
 let msg;
 
-function validateMsg(){
+function validateMsg() {
 	msg = document.getElementById('msg').value;
 	expr = /^[a-zA-Z]+$/;
 	isValid = document.getElementById('isValid');
-	if(msg && msg.match(expr) ){
+	if (msg && msg.match(expr)) {
 		console.log(msg)
 		isValid.innerText = "valid massage";
 	}
@@ -89,12 +103,12 @@ function validateMsg(){
 
 /*task 5 */
 
-function sayHello(){
+function sayHello() {
 	document.getElementById("flipmode").innerText = "Hello !";
 	alert("Hello !");
 }
 
-function flipMode(){
+function flipMode() {
 	img = document.getElementById("smileyFace")
 	img.src = "https://i.pinimg.com/564x/ac/6a/fc/ac6afca86476e167ed70c22deb74ac79.jpg";
 }
