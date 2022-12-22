@@ -1,0 +1,4 @@
+input:focus{
+	border: 20px darkred;
+	background-color: grey;
+}

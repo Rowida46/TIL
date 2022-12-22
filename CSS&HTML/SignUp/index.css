@@ -5,7 +5,7 @@ body{
 .box{
     border-radius: 3px;
     position: relative;
-    width: 350px;
+    width: 650px;
     height: 850px;
     background: #abcd00;
     margin: auto;
@@ -58,3 +58,6 @@ p{
 .para-2 a{
     color:#5f49c1 ;
 }
+
+
+

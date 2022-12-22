@@ -1,0 +1,23 @@
+#textBox, #myTextBox{
+	width: 70%;
+	height: 30px;
+	margin: 20px;
+}
+
+form{
+	border: 2px;
+	align-content: center;
+	margin-left: 50px;
+	margin-top: 20px;
+	border-color: rosybrown;
+}
+
+img{
+	width: 150px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+button{
+	margin: 20px;
+}

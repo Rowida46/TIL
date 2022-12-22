@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="lab3.css">
+	<title>Lab 3</title>
+</head>
+<body>
+	<!-- task 1 -->
+
+	<!-- task 2 -->
+	Your Current Date <input type="text" id="textBox">
+	<input type="button"  value ="Start clock" onclick="ShowTime()">
+	<input type="button"  value ="Stop clock" onclick="StopTime()">
+	<br>
+	<hr>
+	Your Current Date <input type="text" id="myTextBox">
+	<input type="button"  value ="Start clock" onclick="StartTimer()">
+	<input type="button"  value ="Stop clock" onclick="StopTime()">
+
+	<br><br><br> <hr>
+	
+	<!-- task 3 -->
+	<a href="#" id="ads" onclick="showAd()">Open Pinterest</a>
+	<br><br><br>
+	<a href="#" onclick="closeAd()">Close App</a>
+
+	<br><br><br> <hr>
+	<!-- task 4 -->
+	<form onsubmit="validateMsg()" action="#">
+		<input type="text" id="msg" on>
+		<p id="isValid"></p>
+		<button><i>Is Valid !</i> </button>
+	</form>
+	<br><br><br> <hr>
+
+	<!--task 5-->
+	<h3 >Flip Image Mode to the pocker face</h3>
+	<img src="https://i.pinimg.com/564x/cf/67/f5/cf67f554618d63756e47d0c1548c1aba.jpg"  id="smileyFace" onclick="sayHello()" onmouseover="flipMode()">
+	<p id="flipmode"></p>
+	<script type="text/javascript" src="lab3.js"></script>
+</body>
+</html>
