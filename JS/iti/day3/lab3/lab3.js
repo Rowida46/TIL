@@ -1,10 +1,15 @@
+
 /*Task 2 */
+
+let mins = 0, secs = 0, hours = 0;
+let timer;
+
 function ShowCurrentTimetst() {
 	/* using date function */
 	date = new Date()
 	str = date.toDateString();
 	local = date.toLocaleDateString();
-	document.getElementById("textBox").value += "\n" + str + " " + local
+	document.getElementById("textBox").value += "\n" + str + " " + local; 
 }
 
 
@@ -19,14 +24,9 @@ function ShowCurrentTime() {
 	timer = window.setInterval(getTime, 1000);
 }
 
-
-
-let mins = 0, secs = 0, hours = 0;
-let timer;
-
-function ShowTime() {
+/* function ShowTime() {
 	timer = window.setInterval(ShowCurrentTime, 1000);
-}
+} */
 
 /*Task 2 */
 
@@ -40,6 +40,7 @@ function calcTime() {
 function StartTimer() {
 	timer = window.setInterval(calcTime, 1000);
 }
+
 function StopTime() {
 	window.clearInterval(timer)
 }
@@ -111,4 +112,14 @@ function sayHello() {
 function flipMode() {
 	img = document.getElementById("smileyFace")
 	img.src = "https://i.pinimg.com/564x/ac/6a/fc/ac6afca86476e167ed70c22deb74ac79.jpg";
+}
+
+/* task 6 */
+
+function rememberme(){
+	var name = document.getElementById('username').value;
+	var password = document.getElementById('password').value;
+	localStorage.setItem('username', name);
+	localStorage.setItem('password', password);
+	console.log(sessionStorage);
 }
