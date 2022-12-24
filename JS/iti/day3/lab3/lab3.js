@@ -1,11 +1,15 @@
+/*Task 1*/
 
+function keyPressed(e){
+	document.getElementById('txt').innerText += e.key;
+
+}
 /*Task 2 */
 
 let mins = 0, secs = 0, hours = 0;
 let timer;
 
 function ShowCurrentTimetst() {
-	/* using date function */
 	date = new Date()
 	str = date.toDateString();
 	local = date.toLocaleDateString();
@@ -14,6 +18,7 @@ function ShowCurrentTimetst() {
 
 
 function getTime() {
+	/* using date function */
 	var currentDate = new Date();
 	var currentTime = currentDate.toLocaleTimeString();
 	console.log(currentTime)

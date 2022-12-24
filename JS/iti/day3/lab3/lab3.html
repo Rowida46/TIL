@@ -10,6 +10,10 @@
 
 <body>
 	<!-- task 1 -->
+	Press Your Key  <input type="text" name="" onkeypress="keyPressed(event)">
+	<p id="txt">Your key is : </p>
+	<br><br><hr>
+
 
 	<!-- task 2 -->
 	Your Current Date <input type="text" id="textBox">
@@ -31,7 +35,7 @@
 
 	<!-- task 4 -->
 	<form onsubmit="validateMsg()" action="#">
-		<input type="text" id="msg" on>
+		<i>check if your text is valid </i><input type="text" id="msg" on>
 		<p id="isValid"></p>
 		<button><i>Is Valid !</i> </button>
 	</form>
@@ -47,7 +51,7 @@
 	<!--task 6-->
 	<form action="welcome.html" onsubmit="rememberme()">
 		<label for="">User Name</label> <input type="text" id="username">
-		<label for="">User Name</label> <input type="password" id="password">
+		<label for="">Password</label> <input type="password" id="password">
 		<button type="submit" value="submit">Submit</button>
 	</form>
 	<br><br><br><hr>
