@@ -1,11 +1,12 @@
 
-function makeFetch(argument) {
-    fetch("https://retoolapi.dev/MO3Cl6/data").then(res => res.json()).then(renderResult)
 
+function makeFetch() {
+    fetch("https://retoolapi.dev/MO3Cl6/data").then(res => res.json()).then(renderResult)
 }
+
 /*get res */
 function renderResult(res){
-    //console.log(res)
+    console.log(typeof res)
     localStorage.setItem("posts", JSON.stringify(res))
     posts = document.getElementById("Posts")
 
@@ -18,9 +19,8 @@ function renderResult(res){
             <p>${post.description}</p>
             <button onclick='deletPostsFromLocalStorage(${post.id})'> Delete ! </button>
             <button onclick='updatePostsFromLocalStorage(${post.id})'> Update ! </button>
-            <button onclick='addPoststoLocalStorage(${post.id})'> Add Random Post! </button>
-
-            
+            <button onclick='updatePostsFromLocalStorage(${post.id})'> <a href="CreatePost.html?${post.id}">Edit</a></button>
+            <button onclick='addPoststoLocalStorage(${post.id})'> Add Random Post! </button>            
         </div>` 
         }
     );
@@ -45,7 +45,7 @@ function deletePost(id){
 function deletPostsFromLocalStorage(id){
     console.log(id)
     posts = JSON.parse(localStorage.getItem("posts")); // get posts from local storage
-    posts = posts.filter(function(post){
+    posts = posts.filter(function(post){ /*skip a specific post */
         return post.id != id
     })
     localStorage.setItem("posts", JSON.stringify(posts) )
@@ -54,7 +54,6 @@ function deletPostsFromLocalStorage(id){
 
 
 /* update */
-
 function updatePostsFromLocalStorage(id){
     console.log(id)
     posts = JSON.parse(localStorage.getItem("posts")); // get posts from local storage
@@ -84,4 +83,13 @@ function addPoststoLocalStorage(){
     posts.push(newPost)
     localStorage.setItem("posts", JSON.stringify(posts))
     console.log(posts)
+}
+
+function deletePostFromApi(id){
+    targetPost = data.filter((post) => post.id == id);
+    
+}
+
+function updatePostsFromApi(id){
+    //targetpost = data.filter(())
 }

@@ -1,0 +1,19 @@
+body{
+    font-size: 100px;
+}
+
+/*
+rem -> its val wont chnage no matter what 
+
+em -> based on its root val
+*/
+
+
+/*
+transelte -> used instead of using padding and margin 
+to move the item content 
+*/
+
+/*
+transition -> for animation work stuff 
+*/

@@ -14,18 +14,24 @@
 
 <body>
     <div class="container d-flex justify-content-center">
-        <div class="d-flex flex-column justify-content-between">
+        <div class="d-flex  flex-column justify-content-between" >
             <div class="card mt-3 p-5">
                 <div class="logo mb-3"><img src=""></div>
                 <h3>Sign Up</h3>
                     
             </div>
-            <div class="card two bg-white px-2 py-5 mb-3">
+            <div class="card two bg-white px-2 py-5 mb-3" style="background-color: #a7501783;">
+                <form action="welcome.html">
+                <!-- email -->
                 <div class="form-group"><label>Email</label><input type="email" class="form-control" id="mail" placeholder="" required></div>
-                <div class="form-group"> <label id="fullnameTxt">Full Name</label><input type="text" class="form-control" id="name" placeholder="Enter your Name" required>
-                <p id="validUserName"></p>
+                <!-- full name -->
+                <div class="form-group"> <label id="fullnameTxt">Full Name</label><input type="text" minlength="3" class="form-control" id="name" placeholder="Enter your Name" required>
+                <p id="validUserName" ></p>
+                <a id="isValidIcon"></a>
                 </div>
+                <!-- password -->
                 <div class="form-group"><label>Password</label><input type="password" class="form-control" id="password" required></div>
+                <!-- confirm password -->
                 <div class="form-group"><label>Repeat Password</label><input type="password" class="form-control" id="Confirmpassword" required>
                 <p id="isValidPassword"></p>
                 </div>
@@ -41,7 +47,8 @@
                         I accept the terms and condition
                     </label>
                   </div>
-                <button class="btn btn-primary btn-block btn-lg mt-1 mb-2"><span>Register<i class="fas fa-long-arrow-alt-right ml-2"></i></span></button>
+                <button class="btn btn-primary btn-block btn-lg mt-1 mb-2" onclick="rememberUser()"><span>Register<i class="fas fa-long-arrow-alt-right ml-2"></i></span></button>
+                </form>
             </div>
         </div>
     </div>

@@ -1,0 +1,93 @@
+nav{
+    background-color: antiquewhite;
+    height: 40px;
+
+}
+
+*{
+}
+header{
+    background-color: darkgreen;
+    height: 100px;
+}
+
+section{
+    background-color: chocolate;
+    height: 240px;
+
+}
+
+footer{
+    background-color: crimson;
+    margin-top: 5px;
+    height: 50px;
+}
+article{
+    background-color: yellow;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.col-1{
+    width: .083%;
+}
+.col-2{
+    width: 17%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33%;
+}
+.col-5{
+    width: 41%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58%;
+}
+.col-8{
+    width: 66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83%;
+}
+.col-11{
+    width: 91%;
+}
+.col-12{
+    width: 100%;
+}
+
+
+.fCol1{
+    width: 25%;
+    margin: 10px;
+}
+
+.fCol2{
+    margin-left: 50px;
+    width: 55%;
+    margin: 10px;
+
+}
+
+form{
+    margin: 10px;
+    border: 2px solid rebeccapurple;
+}
+
+button{
+    width: 20%;
+}
+
+img{
+    height: 100px;
+}

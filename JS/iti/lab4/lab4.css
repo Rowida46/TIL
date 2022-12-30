@@ -1,14 +1,28 @@
 body{
-	background-color: #EBEAEF;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: blueviolet;
+    background-image: url('https://i.pinimg.com/236x/62/5a/79/625a797151e30b0fe95e511e666138e7.jpg');
+    display: flex;
+    background-size:initial;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .container{
 	flex-wrap: wrap;
 }
+.back{
+	background-color: #a7501783;
+
+}
 .card{
+	background-color: #a7501783;
+
 	border: none;
 	border-radius: 10px;
-	background-color: #4270C8;
-	width: 350px;
+	width: 650px;
 	margin-top: -60px;
 }
 p.mb-1{
@@ -25,6 +39,13 @@ p.mb-1{
 }
 .btn-primary span{
 	font-size: 13px;
+}
+img{
+	width: 50px;
+	height: 50px;
+}
+#validUserName{
+	display: inline;
 }
 /***card-two****/
 .card.two{

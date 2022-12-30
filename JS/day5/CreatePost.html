@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>day 5</title>
+	<link rel="stylesheet" type="text/css" href="day5.css">
+
+</head>
+<body>
+	<form onsubmit="edit()">
+        <label>Title</label> <input  style="height: 140px; width: 400px;"  name="title" id="title" type="text">
+        <br><br>
+        <label>description</label><input style="height: 140px; width: 400px;" name="description" id="description" type="text">
+        <input type="submit" value="Save Edit">
+    </form>
+    <script>
+        id = location.search.split("?")[1];
+        title = document.getElementById("title")
+        txt = document.getElementById("description")
+        console.log(id);
+        fetch("https://retoolapi.dev/MO3Cl6/data/"+id).then(res => res.json()).then(res => console.log(res));
+
+        fetch("https://retoolapi.dev/MO3Cl6/data/"+id).then(res => res.json()).then(showRes);
+
+        function showRes(targetPost){
+            console.log(targetPost.description, targetPost.title)
+            txt.value = targetPost.description
+            title.value = targetPost.title
+        }
+
+        function edit(){
+            newtxt = txt.value
+            newtitle = title.value
+            fetch("https://retoolapi.dev/MO3Cl6/data/"+id, 
+            {
+                method: "PUT",
+
+
+            }
+            )
+        }
+    </script>
+</body>
+</html>

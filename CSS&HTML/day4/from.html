@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Validation Form </title>
+    <link rel="stylesheet" type="text/css" href="lab4.css">
+</head>
+<body>
+    <form action="#" oninput="Salary.value  = expectedSalary.value + ' $ '">
+        <label class="fCol1">Name </label> <input class="fCol2" type="text" required><br>
+        <label class="fCol1">Email </label> <input class="fCol2" type="email" required><br>
+        <label class="fCol1">Password </label> <input class="fCol2" type="password" 
+        minlength="8" maxlength="8"
+        required><br>
+        <label class="fCol1">Salary </label> <input class="" type="range" name="expectedSalary" required><br>
+        <output class="fCol2" name="Salary"></output> <br>
+        <label class="fCol1">Age </label> <input  class="fCol2" type="number" min="21" max="40" ><br>
+        <input type="submit" class="fCol1" value="Submit">
+    </form>
+    
+</body>
+</html>
