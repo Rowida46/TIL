@@ -137,3 +137,9 @@ add(30,20);
 add(50,60,200);
 
 add(60,30,90,80);
+
+function dimin(...data){
+    return data
+}
+
+console.log(dimin([1,2,9,3]))
