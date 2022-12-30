@@ -1,0 +1,116 @@
+nav {
+    border: 1px solid blue;
+    border-radius: 20px;
+    width: 100%;
+    height: 50px;
+}
+
+nav a {
+    float: left;
+    padding: 12px;
+    color: white;
+   
+}
+i{
+    width: 40px;
+    font-size: 1.7em;
+    padding-left: 70px;
+
+}
+
+
+.active, nav a:hover {
+    background-color: grey;
+    border-radius: 30px;
+}
+
+.col-1 {
+    width: 18%;
+}
+
+ul {
+    display: inline;
+    list-style: none;
+}
+
+@font-face {
+    font-family: usedfont;
+    src: url('./res/LobsterTwo-Regular.ttf'), url('./res/LobsterTwo-Italic.eot');
+}
+
+p{
+    font-family: usedfont;
+    font-size: 2em;
+}
+
+.newspaper{
+    width: 100%;
+    column-count: 5;
+    column-gap: 60px;
+    column-rule: 2px dotted salmon;
+    font-family: usedfont;
+
+}
+
+section{
+    margin: 2em;
+    margin-bottom: 2em;
+}
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    border-radius: 25px;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #888;
+}
+
+.closebtn {
+    padding-left: 10px;
+    color: rosybrown;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+#child{
+    display: flex;
+    text-align: center;
+    width: 250px;
+}
+
+.closebtn:hover {
+    color: #000;
+} 
+
+
+/*slider*/
+
+
+.slider{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+
+.col{
+    width: 50px;
+    border: 2px dotted bisque;
+    margin: 1px;
+    background-color:grey;
+    transition: width 3s;
+}
+
+.colapse{
+    display: none
+}

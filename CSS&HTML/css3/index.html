@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +10,83 @@
 </head>
 
 <body>
+    <!-- <div id="divRadius" class="div2">
+        Border Radius
+    </div>
+    <div id="divRadius2" class="div2">
+        border radius 2
+    </div>
+    <div id="divRdius3" class="div2">
+        border radius circle
+    </div>
+    <div id="divBorderShadow" class="div2">
+        border radius circle
+    </div>
 
+    <div class="divtransition div2" >
+        <p><b>Note:</b> This example does not work in Internet Explorer.</p>
+
+    </div>
+    <div class="transiition2 div2" >
+        <p><b>Note:</b> This example does not work in Internet Explorer.</p>
+    </div> -->
+    <div class="chip">
+        <img id="imgFlip" src="https://i.pinimg.com/564x/5b/4b/b8/5b4bb8747268b7cfff8d50e3bb9d1253.jpg" alt="Person"
+            width="96" height="96">
+
+        <div id="child">
+            Rowida Nagah
+            <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+        </div>
+    </div>
+    <section>
+        <div class="slider">
+            <div class="col">
+                <p class="colapse">Col 1</p>
+            </div>
+            <div class="col">
+                <p class="colapse">Col 2</p>
+            </div>
+            <div class="col">
+                <p class="colapse">Col 3</p>
+            </div>
+            <div class="col">
+                <p class="colapse">Col 4</p>
+            </div>
+            <div class="col">
+                <p class="colapse">Col 5</p>
+            </div>
+        </div>
+    </section>
+    <script>
+        function colapse() {
+            var secCols = document.getElementsByClassName("col");
+            var txt = document.querySelectorAll(".colapse");
+            console.log(secCols, txt[1], txt.length)
+            flag = true
+
+            for (let index = 0; index < secCols.length; index++) {
+                secCols[index].addEventListener('click', () => {
+                    if (flag) {
+                        console.log(index, flag)
+                        secCols[index].style.cssText = "width:200px";
+                        txt[index].style.cssText = "display:block";
+                        flag = false
+
+                    } else {
+                        console.log(index, flag)
+                        console.log(txt[index], index)
+                        secCols[index].style.cssText = "width:30px";
+                        txt[index].style.cssText = "display:none"
+                        flag = true;
+
+                    }
+                })
+            }
+
+        }
+        colapse()
+    </script>
 </body>
 
 </html>

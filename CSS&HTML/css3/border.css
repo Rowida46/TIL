@@ -1,4 +1,123 @@
-#divRadius{
+/* #divRadius {
     border: 5px solid blue;
     border-radius: 20px;
+
+}
+
+#divRadius2 {
+    border: 5px solid blue;
+    border-radius: 10px 40px 70px 50px/ 50px 20px 40px 70px;
+}
+
+#divRdius3 {
+    border: 5px solid blue;
+    border-radius: 50%;
+}
+
+.div2 {
+    background-color: whitesmoke;
+    text-align: center;
+    width: 90%;
+    margin: 20px;
+}
+
+#divBorderShadow {
+    border: 5px solid blue;
+    box-shadow: 5px 10px 15px 5px blue indianred;
+
+}
+
+.divtransition {
+    width: 200px;
+    height: 200px;
+    background: rgba(221, 196, 196, 0.014);
+    transition: width 3s ease;
+    transition: height 3s ease;
+
+}
+
+.divtransition:hover {
+    width: 600px;
+    height: 600px;
+
+}
+
+.transiition2 {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+
+}
+
+.transiition2:hover {
+    animation: fadeaway 4s;
+    animation-iteration-count: 3;
+
+}
+
+@keyframes fadeaway {
+    from {
+        background-color: blueviolet;
+    }
+
+    to {
+        background-color: rosybrown;
+    }
+}
+*/
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    border-radius: 25px;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #888;
+}
+
+.closebtn {
+    padding-left: 10px;
+    color: rosybrown;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#child {
+    display: flex;
+    text-align: center;
+    width: 250px;
+}
+
+.closebtn:hover {
+    color: #000;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+.col{
+    width: 30px;
+    border: 2px dotted bisque;
+    margin: 1px;
+    background-color: rgb(224, 133, 179);
+    transition: width 3s;
+}
+
+.colapse{
+    display: none
 }

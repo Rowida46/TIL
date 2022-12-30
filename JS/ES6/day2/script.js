@@ -3,6 +3,7 @@
  * fatory function -: is to create an anonymous fuction 
  * aka it's constructor is not of a type of the cllass name
  * src : https://www.geeksforgeeks.org/what-are-factory-functions-in-javascript/
+ * src: stackoverflow https://stackoverflow.com/questions/36123203/javascript-what-are-factories
  */
 function employee(name, age) {
     return {
