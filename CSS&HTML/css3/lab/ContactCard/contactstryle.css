@@ -1,0 +1,113 @@
+/* E:\SW\TIL\JS\Cart\script.js */
+@font-face {
+    font-family: usedfont;
+    src: url('./res/LobsterTwo-Regular.ttf'), url('./res/LobsterTwo-Italic.eot');
+}
+
+* {
+    font-family: usedfont;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+
+}
+
+.card {
+    border: 2px solid rgb(58, 4, 58);
+    box-shadow: 5px 10px 15px 5px rgb(135, 135, 151);
+    top: 30%;
+    width: 50%;
+    height: 80%;
+    left: 60%;
+    margin: 200px;
+    background-color: #232323;
+}
+
+.containe {
+    justify-content: center;
+    align-items: center;
+}
+
+.card_img {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: -60px auto 0;
+
+}
+
+.card_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+span {
+    font-size: .8em;
+}
+
+p {
+    font-size: .6em;
+    margin: 10px;
+}
+
+pre {
+    font-size: .5em;
+    display: inline;
+}
+
+.ref {
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    word-spacing: 5px;
+}
+
+.contacts{
+    height: 60px;
+    padding-top: 25px;
+    margin: 10px;
+    font-size: .6em;
+}
+.followers {
+    height: 60px;
+    padding-top: 25px;
+    display: flex;
+    left: 30%;
+    margin-left: 75px;
+
+    font-size: .6em;
+}
+
+.contacts img {
+    height: 30px;
+    width: 40px;
+
+}
+
+.contacts a {
+    margin: 5px;
+}
+
+.col-1 {
+    flex-direction: column;
+    width: 30%;
+    display: flex;
+    margin: 5px;
+    height: 70px; 
+    /* border: 2px solid white; */
+
+}
+
+.col-1 .number {
+    color: blue;
+
+}
+
+button{
+    background-color: #232323;
+    margin: 20px;
+    font-size: .9em;
+    width: 40%;
+}

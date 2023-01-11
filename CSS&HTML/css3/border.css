@@ -121,3 +121,7 @@
 .colapse{
     display: none
 }
+
+input{
+    border-radius: 20px;
+}

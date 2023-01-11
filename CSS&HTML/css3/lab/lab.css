@@ -5,6 +5,7 @@ nav {
     height: 50px;
 }
 
+
 nav a {
     float: left;
     padding: 12px;
@@ -17,7 +18,6 @@ i{
     padding-left: 70px;
 
 }
-
 
 .active, nav a:hover {
     background-color: grey;
@@ -91,11 +91,17 @@ section{
 .closebtn:hover {
     color: #000;
 } 
+#moreInfo{
+    display: none;
+    width: 330px;
+    height: 70px;
+    text-align: center;
+    width: 250px;
+    font-weight: usedfont;
+}
 
 
 /*slider*/
-
-
 .slider{
     display: flex;
     justify-content: center;
@@ -109,8 +115,35 @@ section{
     margin: 1px;
     background-color:grey;
     transition: width 3s;
+    transition: .4s ease-out;
+}
+.col:hover{
+    transform: translateX(-20px);
+    transition: .4s ease-out;
 }
 
 .colapse{
     display: none
+}
+
+/*search*/
+.search{
+    width: 90%;
+    margin: 130px;
+    justify-content: center;
+}
+
+input{
+    border-radius: 20px;
+    width: 390px;
+    transition: width 3s;
+}
+input:focus{
+    width: 500px;
+}
+
+.expandorhide{
+    width: 200px;
+    display: block;
+    
 }
